@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/birthday-nguyet/",  // ← tên repo GitHub của bạn
+  base: "/",  // ← đổi thành "/" cho Vercel
 });
